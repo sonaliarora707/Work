@@ -110,7 +110,7 @@ app.layout = html.Div(children=[
                                                      style={'width':'80%', 'padding':'3px', 'font-size': '20px', 'text-align-last' : 'center'}),
                                             # Place them next to each other using the division style
                                             ], style={'display': 'flex'}),
-                                        #]),
+                                        ]),
                                 # Add Computed graphs
                                 # REVIEW3: Observe how we add an empty division and providing an id that will be updated during callback
                                 html.Div([ ], id='plot1'),
